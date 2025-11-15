@@ -12,17 +12,6 @@ This project loads IPL match data into a PostgreSQL database and solves multiple
 
 ---
 
-## Project Structure
-
-create.sql → Creates user, database, and tables
-load.sql → Loads CSV data into tables
-ipl_project_queries.sql → Contains all IPL analysis SQL queries
-cleanup.sql → Deletes DB and user
-data/ → Contains matches.csv and deliveries.csv
-SQL-Querries/ → Contains optional all_in_one.sql
-
----
-
 ## How to Run the Project
 
 ### **1. Open Terminal and login to PostgreSQL**
